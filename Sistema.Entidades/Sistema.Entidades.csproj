@@ -5,8 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Usuarios\" />
-    <Folder Include="Ventas\" />
+    <Compile Remove="Usuarios\**" />
+    <Compile Remove="Ventas\**" />
+    <EmbeddedResource Remove="Usuarios\**" />
+    <EmbeddedResource Remove="Ventas\**" />
+    <None Remove="Usuarios\**" />
+    <None Remove="Ventas\**" />
   </ItemGroup>
 
 </Project>
