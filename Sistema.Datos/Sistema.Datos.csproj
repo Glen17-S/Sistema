@@ -5,8 +5,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\Ventas\" />
-    <Folder Include="Mapping\Usuarios\" />
+    <Folder Include="Mapping\Usuarios\NewFolder\" />
+    <Folder Include="Mapping\Ventas\NewFolder\" />
   </ItemGroup>
 
   <ItemGroup>
